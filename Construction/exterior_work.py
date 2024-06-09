@@ -66,7 +66,7 @@ def calculate_exterior_work_cost(area, finish_type, material_quality, num_window
     return total_cost
 
 
-def main():
+def exterior_work():
     print("Welcome to the Detailed Exterior Work Cost Estimator\n")
 
     # Get user input for project size (in square feet)
@@ -116,4 +116,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    exterior_work()

@@ -55,7 +55,7 @@ def calculate_design_planning_cost(project_type, size, location):
     return total_cost
 
 
-def main():
+def design_and_planning():
     print("Welcome to the Design and Planning Cost Estimator\n")
 
     # Get user input for project type
@@ -81,4 +81,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    design_and_planning()

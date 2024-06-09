@@ -37,7 +37,7 @@ def calculate_land_cost(area, area_type, city_tier, proximity_infra, land_use, t
     return total_cost
 
 
-def main():
+def land_acquisition():
     print("Welcome to the Land Acquisition Cost Estimator\n")
 
     # Get user input for area
@@ -84,4 +84,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    land_acquisition()

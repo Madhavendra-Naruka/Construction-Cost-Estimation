@@ -101,7 +101,7 @@ def calculate_interior_work_cost(area, finish_type, rooms, room_costs, flooring_
     return total_cost
 
 
-def main():
+def interior_work():
     print("Welcome to the Detailed Interior Work Cost Estimator\n")
 
     # Get user input for project size (in square feet)
@@ -169,4 +169,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    interior_work()

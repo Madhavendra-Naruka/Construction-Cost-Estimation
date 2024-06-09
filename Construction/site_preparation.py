@@ -59,7 +59,7 @@ def calculate_site_preparation_cost(area, vegetation_density, soil_type, access_
     return total_cost
 
 
-def main():
+def site_preparation():
     print("Welcome to the Detailed Site Preparation Cost Estimator\n")
 
     # Get user input for project size (in square feet)
@@ -88,4 +88,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    site_preparation()

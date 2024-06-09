@@ -99,7 +99,7 @@ def calculate_building_systems_cost(area, hvac_type, electrical_type, plumbing_t
     return total_cost
 
 
-def main():
+def building_systems():
     print("Welcome to the Detailed Building Systems Cost Estimator\n")
 
     # Get user input for project size (in square feet)
@@ -150,4 +150,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    building_systems()

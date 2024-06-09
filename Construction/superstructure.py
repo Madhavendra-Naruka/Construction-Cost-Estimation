@@ -32,7 +32,7 @@ def calculate_superstructure_cost(area, floors, superstructure_type, material_qu
     return total_cost
 
 
-def main():
+def superstructure():
     print("Welcome to the Detailed Superstructure Cost Estimator\n")
 
     # Get user input for project size (in square feet)
@@ -74,4 +74,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    superstructure()

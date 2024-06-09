@@ -43,7 +43,7 @@ def calculate_foundation_cost(area, foundation_type, depth, soil_condition, rein
     return total_cost
 
 
-def main():
+def foundation():
     print("Welcome to the Detailed Foundation Cost Estimator\n")
 
     # Get user input for project size (in square feet)
@@ -78,4 +78,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    foundation()
