@@ -78,7 +78,7 @@ def design_and_planning():
 
     # Display the estimated cost
     print(f"\nThe estimated cost for design and planning is: INR {total_cost:,.2f}")
-
+    return total_cost
 
 if __name__ == "__main__":
     design_and_planning()

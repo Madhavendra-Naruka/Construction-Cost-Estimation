@@ -71,7 +71,7 @@ def superstructure():
 
     # Display the estimated cost
     print(f"\nThe estimated cost for the superstructure is: INR {total_cost:,.2f}")
-
+    return total_cost
 
 if __name__ == "__main__":
     superstructure()

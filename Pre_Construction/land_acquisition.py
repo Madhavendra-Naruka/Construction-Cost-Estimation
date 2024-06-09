@@ -81,7 +81,7 @@ def land_acquisition():
 
     # Display the estimated cost
     print(f"\nThe estimated cost of the land is: INR {total_cost:,.2f}")
-
+    return total_cost
 
 if __name__ == "__main__":
     land_acquisition()

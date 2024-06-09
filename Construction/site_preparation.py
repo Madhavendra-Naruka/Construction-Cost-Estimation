@@ -85,7 +85,7 @@ def site_preparation():
 
     # Display the estimated cost
     print(f"\nThe estimated cost for site preparation is: INR {total_cost:,.2f}")
-
+    return total_cost
 
 if __name__ == "__main__":
     site_preparation()

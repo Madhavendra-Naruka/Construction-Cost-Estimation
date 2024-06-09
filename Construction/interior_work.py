@@ -166,7 +166,7 @@ def interior_work():
 
     # Display the estimated cost
     print(f"\nThe estimated cost for the interior work is: INR {total_cost:,.2f}")
-
+    return total_cost
 
 if __name__ == "__main__":
     interior_work()

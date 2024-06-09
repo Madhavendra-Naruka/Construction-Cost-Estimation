@@ -148,6 +148,7 @@ def building_systems():
     # Display the estimated cost
     print(f"\nThe estimated cost for the building systems is: INR {total_cost:,.2f}")
 
+    return total_cost
 
 if __name__ == "__main__":
     building_systems()
