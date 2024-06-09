@@ -15,6 +15,8 @@ from Post_Construction.finishing_touches import finishing_touches
 from Post_Construction.inspections_handover import inspections_handover
 from Post_Construction.maintenance_operation import maintenance_operation
 
+CHECK_MARK = "✔"
+
 land_acquisition_cost=None
 design_and_planning_cost=None
 
@@ -29,13 +31,21 @@ finishing_touches_cost=None
 inspections_handover_cost=None
 maintenance_operation_cost=None
 
+pre_construction_menu_list=["1. Land Acquisition","2. Design and Planning","3. Back to Main Menu"]
 def pre_construction_menu():
-    sub_phase = int(input("Select a Sub-Phase : \n1. Land Acquisition \n2. Design and Planning \n3. Back to Main Menu \n\n"))
+    # [print(e) for e in pre_construction_menu_list]
+    print("Select a Sub-Phase :")
+    [print(e) for e in pre_construction_menu_list]
+    sub_phase =int(input("\n"))
 
     if sub_phase == 1:
         land_acquisition_cost = land_acquisition()
+        pre_construction_menu_list[0]="1. Land Acquisition (✔) : " +str(land_acquisition_cost)
+        pre_construction_menu()
     elif sub_phase == 2:
         design_and_planning_cost = design_and_planning()
+        pre_construction_menu_list[1] = "2. Design and Planning (✔) : " + str(design_and_planning_cost)
+        pre_construction_menu()
     elif sub_phase == 3:
         main_menu()
     else:
