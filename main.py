@@ -19,19 +19,19 @@ from Post_Construction.maintenance_operation import maintenance_operation
 
 CHECK_MARK = "✔"
 
-land_acquisition_cost=5550000
-design_and_planning_cost=645000
+land_acquisition_cost=0
+design_and_planning_cost=0
 
-site_preparation_cost=50000
-foundation_cost=50000000
-superstructure_cost=1040450000
-exterior_work_cost=45620000
-interior_work_cost=4500000
-building_systems_cost=45552860
+site_preparation_cost=0
+foundation_cost=0
+superstructure_cost=0
+exterior_work_cost=0
+interior_work_cost=0
+building_systems_cost=0
 
-finishing_touches_cost=5600000
-inspections_handover_cost=250000
-maintenance_operation_cost=1000000
+finishing_touches_cost=0
+inspections_handover_cost=0
+maintenance_operation_cost=0
 
 pre_construction_total=0
 construction_total=0
